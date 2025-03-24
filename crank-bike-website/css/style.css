@@ -2,6 +2,22 @@
 body {
   font-family: "helvetica", system-ui;
 }
+
+.green-card {
+  background-color: #0b6c37;
+}
+
+.blue-card {
+  background-color: #046ea1;
+}
+
+.btn {
+  background-color: #c9cac5;
+}
+
+.card-text {
+}
+
 /* .video-container {
   max-height: 100vh;
 }
