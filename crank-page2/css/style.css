@@ -21,13 +21,38 @@ body {
   color: white;
 }
 
-.map-container {
-  width: 100%;
-  height: 400px; /* Adjust height as needed */
-  border-radius: 15px; /* Rounded edges */
-  overflow: hidden; /* Prevents overflow of iframe corners */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+.card-img-right {
+  width: 50%;
+  height: auto;
 }
+.card-body {
+  flex: 1;
+}
+.card-deck {
+  display: flex;
+  justify-content: space-between;
+}
+
+.diversity-img {
+}
+
+/* page 2 top box 'giving back' */
+.grey-card {
+  background-color: grey;
+}
+
+.green-card {
+  background-color: #0b6c37;
+}
+.text-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+}
+.title {
+  color: white;
+}
+
 iframe {
   width: 100%;
   height: 100%;
