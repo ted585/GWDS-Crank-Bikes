@@ -20,7 +20,9 @@ body {
 .card-text {
   color: white;
 }
-
+.unlock-img {
+  scale: 1.5;
+}
 .card-img-right {
   width: 50%;
   height: auto;
@@ -71,7 +73,7 @@ iframe {
 }
 
 .footer {
-  background-color: slategray; /* Dark footer background */
+  background-color: slategray;
   color: white;
   padding: 20px 0;
 }
@@ -80,21 +82,13 @@ iframe {
 }
 .image-wrapper {
   display: flex;
-  gap: 10px; /* Space between images */
+  gap: 10px;
 }
 .footer-img {
   justify-content: right;
   scale: 0.5;
-  width: 330px; /* Adjust size */
+  width: 330px;
   height: 60px;
   object-fit: cover;
-  border-radius: 8px; /* Optional rounded corners */
+  border-radius: 8px;
 }
-
-/* .video-container {
-  max-height: 100vh;
-}
-/* .hero-img {
-  object-fit: scale-down;
-  max-height: 100vh;
-/* } */
